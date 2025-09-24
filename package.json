@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "band-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -41,5 +42,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "dependencies": {
+    "react-router-dom": "^7.9.1",
+    "react-slick": "^0.31.0",
+    "slick-carousel": "^1.8.1"
+>>>>>>> e65d3b7c01a1d325e165b67dde42b9ddb6fcceac
   }
 }
