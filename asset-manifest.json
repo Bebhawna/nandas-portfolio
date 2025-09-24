@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nandas-portfolio/static/css/main.3d62b6ed.css",
+    "main.js": "/nandas-portfolio/static/js/main.a9ff5c21.js",
+    "static/js/453.a7ca4ee2.chunk.js": "/nandas-portfolio/static/js/453.a7ca4ee2.chunk.js",
+    "static/media/nandas.png": "/nandas-portfolio/static/media/nandas.fbf13a33df38b2a0b051.png",
+    "index.html": "/nandas-portfolio/index.html",
+    "main.3d62b6ed.css.map": "/nandas-portfolio/static/css/main.3d62b6ed.css.map",
+    "main.a9ff5c21.js.map": "/nandas-portfolio/static/js/main.a9ff5c21.js.map",
+    "453.a7ca4ee2.chunk.js.map": "/nandas-portfolio/static/js/453.a7ca4ee2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d62b6ed.css",
+    "static/js/main.a9ff5c21.js"
+  ]
+}
