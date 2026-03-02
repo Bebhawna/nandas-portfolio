@@ -87,7 +87,7 @@ body {
 .about p {
   font-size: 1rem;
   margin-bottom: 20px;
-  max-width: 600px;
+  /* max-width: 600px; */
 }
 
 .about nav a {
@@ -149,7 +149,7 @@ body {
 
 .about-image img {
   width: 100%;
-  max-width: 380px;
+  /* max-width: 380px; */
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.15);
   transition: transform 0.5s ease;
@@ -229,7 +229,7 @@ body {
 }
 .generation-text {
   flex: 1;
-  max-width: 50%;
+  /* max-width: 50%; */
 }
 .gen-head{
   display: flex;
@@ -239,7 +239,7 @@ body {
 }
 .gen-two-text {
   flex: 1;
-  max-width: 50%;
+  /* max-width: 50%; */
 }
 .gen-two-text p{
   line-height: 1.7;
@@ -266,7 +266,7 @@ body {
 }
 .gen-four-text {
   flex: 1;
-  max-width: 50%;
+  /* max-width: 50%; */
 }
 
 .gen-four-text h3 {
@@ -339,7 +339,7 @@ body {
   border-radius: 15px;
   padding: 25px;
   width: 90%;
-  max-width: 300px;
+  /* max-width: 300px; */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -395,7 +395,7 @@ body {
 
 /* Section Styling */
 .awards-section {
-  max-width: 1000px;
+  /* max-width: 1000px; */
   margin: 80px auto;
   padding: 0 20px;
   text-align: center;
@@ -429,7 +429,7 @@ body {
 }
 
 .contact-container {
-  max-width: 1100px;
+  /* max-width: 1100px; */
   margin: auto;
   text-align: center;
 }
@@ -640,7 +640,7 @@ body {
 }
 
 .lightbox img{
-  max-width:70vw;
+  /* max-width:70vw; */
   max-height:70vh;
   border-radius:10px;
 }
@@ -810,4 +810,23 @@ body {
   .gallery {
     column-count: 1;
   }
+}
+
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container,
+.wrapper,
+.main,
+.page {
+  width: 100%;
+  max-width: 100%;
 }
