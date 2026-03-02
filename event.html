@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Nanda's | Awards & Achievements</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<section class="events-masonry">
+
+  <!-- Filters -->
+  <div class="masonry-filters">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="performance">Performances</button>
+    <button data-filter="competition">Competitions</button>
+    <button data-filter="festival">Festivals</button>
+  </div>
+
+  <!-- Masonry Grid -->
+  <div class="masonry-grid">
+
+    <!-- Item -->
+    <div class="masonry-item" data-category="competition" onclick="openGallery(0)">
+      <img src="images/e1_1.jpg" alt="">
+      <div class="overlay">
+        <span>Inter-University Cultural Fest • 2022</span>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="competition" onclick="openGallery(0)">
+      <img src="images/e1_2.jpg" alt="">
+      <div class="overlay">
+        <span>Inter-University Cultural Fest • 2022</span>
+      </div>
+    </div>
+
+    <!-- Item -->
+    <div class="masonry-item" data-category="festival" onclick="openGallery(1)">
+      <img src="images/e2_1.jpg" alt="">
+      <div class="overlay">
+        <span>Tula’s Institute Cultural Fest • 2023</span>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="festival" onclick="openGallery(1)">
+      <img src="images/e2_2.jpg" alt="">
+      <div class="overlay">
+        <span>Tula’s Institute Cultural Fest • 2023</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Lightbox -->
+<!-- <div class="lightbox" id="lightbox">
+  <span class="close" onclick="closeGallery()">×</span>
+
+  <button class="nav prev" onclick="prevImage()">❮</button>
+  <img id="lightboxImg">
+  <button class="nav next" onclick="nextImage()">❯</button>
+
+  <div class="caption">
+    <h4 id="lbTitle"></h4>
+    <p id="lbRole"></p>
+  </div>
+</div> -->
+
+<div id="lightbox" class="lightbox">
+  <div class="lightbox-content">
+
+    <span class="close-btn" onclick="closeGallery()">&times;</span>
+
+    <h2 id="lightbox-title"></h2>
+    <p id="lightbox-role"></p>
+
+    <!-- Image Grid Container -->
+    <div id="lightbox-gallery" class="lightbox-gallery"></div>
+
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
