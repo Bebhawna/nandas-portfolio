@@ -88,7 +88,7 @@ fadeElements.forEach(el => observer.observe(el));
 
 const galleries = [
   {
-    title: "Inter-University Cultural Fest (Student Graphest) – 2022",
+    title: "Student Graphest – 2022",
     images: [
       "images/img12.png",
       "images/img15.jpg",
@@ -96,22 +96,23 @@ const galleries = [
     ]
   },
   {
-    title: "Cultural Festival – Tula’s Institute – 2023",
+    title: "ICICEPC 1.0 2024",
     images: [
-      "images/e2_1.jpg",
-      "images/e2_2.jpg",
-      "images/e2_3.jpg",
-      "images/e2_4.jpg"
+      "images/icpc2.png",
+      "images/icpc3.png",
+      "images/icpc4.png",
+      "images/icpc5.png"
     ]
   },
   {
     title: "ISCON – 2022",
     // role: "My role: Performer & Presenter",
     images: [
-      "images/iscon-3.jpeg",
+      "images/iskon.png",
+      "images/iskon2.png",
       "images/iscon-2.jpeg",
-      "images/iscon-1.jpeg",
-      "images/iscon-4.jpeg"
+      "images/iscon-1.jpeg"
+      
     ]
   },
   {
@@ -136,8 +137,8 @@ const galleries = [
     title: "Alive-2026",
     // role: "My role: Performer & Presenter",
     images: [
-      "images/alive-1.jpg",
-      "images/alive-2.jpg"
+      "images/alive26-1.jpg",
+      "images/alive26-2.jpg"
     ]
   }
   
@@ -168,7 +169,7 @@ function showImage(){
   const data = galleries[currentGallery];
 
   document.getElementById("lightbox-title").innerText = data.title;
-  document.getElementById("lightbox-role").innerText = data.role;
+  // document.getElementById("lightbox-role").innerText = data.role;
 
   const galleryContainer = document.getElementById("lightbox-gallery");
   galleryContainer.innerHTML = ""; // Clear old images
